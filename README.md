@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Bluepeg
 
 This project is a modern, professional replica of greenpeg.com, built with Next.js (React), TypeScript, and Tailwind CSS. It features reusable components, clean UI, and a scalable structure for industrial engineering solutions.
@@ -29,3 +30,6 @@ Replace placeholder images and content with your own to match your brand and req
 ## Learn More
 - [Next.js Documentation](https://nextjs.org/docs)
 - [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+=======
+# bluepeg
+>>>>>>> 7f2de9d5130c2ca5a197ece63add1edfe297d34d
