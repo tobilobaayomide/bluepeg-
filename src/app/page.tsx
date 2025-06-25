@@ -3,6 +3,7 @@ import AboutSection from "../components/AboutSection";
 import Image from "next/image";
 import WhoWeAre from "@/components/WhoWeAreSection";
 import MissionVisionValues from "@/components/MissionVisionValuesSection";
+import OurStory from "@/components/OurStorySection";
 
 function ClientTrustSection() {
   return null;
@@ -30,6 +31,7 @@ export default function Home() {
       <Hero />
       <WhoWeAre />
       <MissionVisionValues />
+      <OurStory />
       <ClientTrustSection />
       <WhyChooseUsStatsBar />
       <ServicesSection />
