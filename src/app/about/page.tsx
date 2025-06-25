@@ -22,10 +22,10 @@ function AboutHero() {
             Who We Are
           </h1>
           <p className="text-base text-white mb-6 max-w-xl">
-            Bluepeg is a people-first industrial operations company, dedicated to
-            driving innovation and sustainable growth across Nigeria. We believe in
-            smart solutions, strong partnerships, and a relentless commitment to
-            excellence.
+            Bluepeg is a people-first industrial operations company, dedicated
+            to driving innovation and sustainable growth across Nigeria. We
+            believe in smart solutions, strong partnerships, and a relentless
+            commitment to excellence.
           </p>
           <div className="mt-6">
             <h2 className="text-lg font-semibold text-white mb-4">
@@ -77,7 +77,8 @@ function MissionVisionValues() {
             <div className="w-8 border-b border-[#007BFF] mb-2" />
             <p className="text-gray-700 text-xs text-center font-normal">
               To be Africa’s leading provider of innovative industrial operation
-              solutions, empowering businesses through technology and efficiency.
+              solutions, empowering businesses through technology and
+              efficiency.
             </p>
           </div>
           {/* Core Values */}
@@ -144,7 +145,9 @@ function OurStory() {
             <div className="flex items-center gap-3 group w-full max-w-xs mx-auto md:mx-0">
               <div className="flex flex-col items-center">
                 <div className="w-9 h-9 rounded-full bg-gradient-to-br from-[#007BFF] to-[#60a5fa] flex items-center justify-center shadow-lg border-2 border-white group-hover:scale-105 transition-transform duration-300">
-                  <span className="text-white text-base font-extrabold tracking-widest drop-shadow-md">'22</span>
+                  <span className="text-white text-base font-extrabold tracking-widest drop-shadow-md">
+                    '22
+                  </span>
                 </div>
                 <div className="w-1 h-4 bg-[#60a5fa] rounded-full my-1" />
               </div>
@@ -155,18 +158,23 @@ function OurStory() {
             <div className="flex items-center gap-3 group w-full max-w-xs mx-auto md:mx-0">
               <div className="flex flex-col items-center">
                 <div className="w-9 h-9 rounded-full bg-gradient-to-br from-[#007BFF] to-[#60a5fa] flex items-center justify-center shadow-lg border-2 border-white group-hover:scale-105 transition-transform duration-300">
-                  <span className="text-white text-base font-extrabold tracking-widest drop-shadow-md">'23</span>
+                  <span className="text-white text-base font-extrabold tracking-widest drop-shadow-md">
+                    '23
+                  </span>
                 </div>
                 <div className="w-1 h-4 bg-[#60a5fa] rounded-full my-1" />
               </div>
               <div className="text-xs text-gray-800 font-semibold bg-white/80 px-2 py-1 rounded-lg shadow group-hover:bg-[#e3f0ff] transition-colors duration-300">
-                First major automation project delivered, earning industry trust.
+                First major automation project delivered, earning industry
+                trust.
               </div>
             </div>
             <div className="flex items-center gap-3 group w-full max-w-xs mx-auto md:mx-0">
               <div className="flex flex-col items-center">
                 <div className="w-9 h-9 rounded-full bg-gradient-to-br from-[#007BFF] to-[#60a5fa] flex items-center justify-center shadow-lg border-2 border-white group-hover:scale-105 transition-transform duration-300">
-                  <span className="text-white text-base font-extrabold tracking-widest drop-shadow-md">'24</span>
+                  <span className="text-white text-base font-extrabold tracking-widest drop-shadow-md">
+                    '24
+                  </span>
                 </div>
                 <div className="w-1 h-4 bg-[#60a5fa] rounded-full my-1" />
               </div>
@@ -177,7 +185,9 @@ function OurStory() {
             <div className="flex items-center gap-3 group w-full max-w-xs mx-auto md:mx-0">
               <div className="flex flex-col items-center">
                 <div className="w-9 h-9 rounded-full bg-gradient-to-br from-[#007BFF] to-[#60a5fa] flex items-center justify-center shadow-lg border-2 border-white group-hover:scale-105 transition-transform duration-300">
-                  <span className="text-white text-base font-extrabold tracking-widest drop-shadow-md">'25</span>
+                  <span className="text-white text-base font-extrabold tracking-widest drop-shadow-md">
+                    '25
+                  </span>
                 </div>
               </div>
               <div className="text-xs text-gray-800 font-semibold bg-white/80 px-2 py-1 rounded-lg shadow group-hover:bg-[#e3f0ff] transition-colors duration-300">
@@ -230,7 +240,10 @@ function MeetTheTeam() {
         </h2>
         <div className="grid md:grid-cols-3 gap-6">
           {staff.map((person, idx) => (
-            <div key={idx} className="flex flex-col items-center bg-white rounded-lg shadow p-5">
+            <div
+              key={idx}
+              className="flex flex-col items-center bg-white rounded-lg shadow p-5"
+            >
               <Image
                 src={person.img}
                 alt={person.name}
@@ -239,9 +252,15 @@ function MeetTheTeam() {
                 className="w-20 h-20 object-cover rounded-full border-4 border-[#007BFF] mb-3 shadow-md"
                 loading="lazy"
               />
-              <h3 className="text-lg font-bold mb-1 text-[#007BFF]">{person.name}</h3>
-              <span className="text-xs font-semibold text-gray-500 mb-2 uppercase tracking-wide">{person.title}</span>
-              <p className="text-xs text-[#007BFF] text-center">{person.desc}</p>
+              <h3 className="text-lg font-bold mb-1 text-[#007BFF]">
+                {person.name}
+              </h3>
+              <span className="text-xs font-semibold text-gray-500 mb-2 uppercase tracking-wide">
+                {person.title}
+              </span>
+              <p className="text-xs text-[#007BFF] text-center">
+                {person.desc}
+              </p>
             </div>
           ))}
         </div>
@@ -252,36 +271,36 @@ function MeetTheTeam() {
 
 function WhatWeDo() {
   // Use the same image for all solution boxes
-  const powerDriveImg = '/hero-industrial.jpg';
+  const powerDriveImg = "/hero-industrial.jpg";
   const solutions = [
     {
-      title: 'Instrumentation & Control',
-      desc: 'Precision solutions for monitoring and controlling industrial processes.',
+      title: "Instrumentation & Control",
+      desc: "Precision solutions for monitoring and controlling industrial processes.",
       img: powerDriveImg,
     },
     {
-      title: 'Automation Solutions',
-      desc: 'Smart automation to boost efficiency, safety, and productivity.',
+      title: "Automation Solutions",
+      desc: "Smart automation to boost efficiency, safety, and productivity.",
       img: powerDriveImg,
     },
     {
-      title: 'Panel Solutions',
-      desc: 'Custom-built panels for seamless integration and control.',
+      title: "Panel Solutions",
+      desc: "Custom-built panels for seamless integration and control.",
       img: powerDriveImg,
     },
     {
-      title: 'Power & Drive Solutions',
-      desc: 'Reliable power and drive systems for uninterrupted operations.',
+      title: "Power & Drive Solutions",
+      desc: "Reliable power and drive systems for uninterrupted operations.",
       img: powerDriveImg,
     },
     {
-      title: 'Electrical Solutions',
-      desc: 'Comprehensive electrical services for safe, efficient systems.',
+      title: "Electrical Solutions",
+      desc: "Comprehensive electrical services for safe, efficient systems.",
       img: powerDriveImg,
     },
     {
-      title: 'Manpower Development',
-      desc: 'Training and upskilling for a future-ready workforce.',
+      title: "Manpower Development",
+      desc: "Training and upskilling for a future-ready workforce.",
       img: powerDriveImg,
     },
   ];
@@ -293,9 +312,9 @@ function WhatWeDo() {
         </h2>
         <p className="text-base text-gray-500 text-left mb-8 max-w-full italic px-4 md:px-8">
           We partner with you to deliver innovative, reliable, and sustainable
-          solutions tailored to the needs of modern industry. Our expertise covers
-          a wide range of services designed to empower your business and drive
-          operational excellence.
+          solutions tailored to the needs of modern industry. Our expertise
+          covers a wide range of services designed to empower your business and
+          drive operational excellence.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 px-2 md:px-6">
           <div className="bg-gray-50 border border-gray-100 rounded-lg shadow-sm flex flex-col justify-between p-6 min-h-[220px] hover:shadow-md transition group">
@@ -306,15 +325,17 @@ function WhatWeDo() {
               We provide precision solutions for monitoring and controlling
               industrial processes, ensuring optimal performance, safety, and
               compliance. Our team leverages the latest technology to deliver
-              reliable instrumentation and control systems tailored to your unique
-              requirements.
+              reliable instrumentation and control systems tailored to your
+              unique requirements.
             </p>
             <a
               href="/solutions"
               className="text-sm text-[#007BFF] font-medium inline-flex items-center gap-1 hover:underline mt-auto"
             >
               Read More{" "}
-              <span aria-hidden className="text-base">→</span>
+              <span aria-hidden className="text-base">
+                →
+              </span>
             </a>
           </div>
           <div className="bg-gray-50 border border-gray-100 rounded-lg shadow-sm flex flex-col justify-between p-6 min-h-[220px] hover:shadow-md transition group">
@@ -324,15 +345,17 @@ function WhatWeDo() {
             <p className="text-sm text-gray-600 mb-4 flex-1">
               Our smart automation services boost efficiency, safety, and
               productivity. We design, implement, and support automation systems
-              that streamline operations, reduce downtime, and enable data-driven
-              decision-making for your business.
+              that streamline operations, reduce downtime, and enable
+              data-driven decision-making for your business.
             </p>
             <a
               href="/solutions"
               className="text-sm text-[#007BFF] font-medium inline-flex items-center gap-1 hover:underline mt-auto"
             >
               Read More{" "}
-              <span aria-hidden className="text-base">→</span>
+              <span aria-hidden className="text-base">
+                →
+              </span>
             </a>
           </div>
           <div className="bg-gray-50 border border-gray-100 rounded-lg shadow-sm flex flex-col justify-between p-6 min-h-[220px] hover:shadow-md transition group">
@@ -340,17 +363,19 @@ function WhatWeDo() {
               Panel Solutions
             </h3>
             <p className="text-sm text-gray-600 mb-4 flex-1">
-              We deliver custom-built panels for seamless integration and control.
-              Our solutions are engineered for reliability, scalability, and ease of
-              maintenance, supporting a wide range of industrial applications and
-              environments.
+              We deliver custom-built panels for seamless integration and
+              control. Our solutions are engineered for reliability,
+              scalability, and ease of maintenance, supporting a wide range of
+              industrial applications and environments.
             </p>
             <a
               href="/solutions"
               className="text-sm text-[#007BFF] font-medium inline-flex items-center gap-1 hover:underline mt-auto"
             >
               Read More{" "}
-              <span aria-hidden className="text-base">→</span>
+              <span aria-hidden className="text-base">
+                →
+              </span>
             </a>
           </div>
           <div className="bg-gray-50 border border-gray-100 rounded-lg shadow-sm flex flex-col justify-between p-6 min-h-[220px] hover:shadow-md transition group">
@@ -359,16 +384,18 @@ function WhatWeDo() {
             </h3>
             <p className="text-sm text-gray-600 mb-4 flex-1">
               We provide reliable power and drive systems for uninterrupted
-              operations. Our expertise covers design, installation, and maintenance
-              of power solutions that ensure efficiency, safety, and long-term value
-              for your business.
+              operations. Our expertise covers design, installation, and
+              maintenance of power solutions that ensure efficiency, safety, and
+              long-term value for your business.
             </p>
             <a
               href="/solutions"
               className="text-sm text-[#007BFF] font-medium inline-flex items-center gap-1 hover:underline mt-auto"
             >
               Read More{" "}
-              <span aria-hidden className="text-base">→</span>
+              <span aria-hidden className="text-base">
+                →
+              </span>
             </a>
           </div>
           <div className="bg-gray-50 border border-gray-100 rounded-lg shadow-sm flex flex-col justify-between p-6 min-h-[220px] hover:shadow-md transition group">
@@ -386,7 +413,9 @@ function WhatWeDo() {
               className="text-sm text-[#007BFF] font-medium inline-flex items-center gap-1 hover:underline mt-auto"
             >
               Read More{" "}
-              <span aria-hidden className="text-base">→</span>
+              <span aria-hidden className="text-base">
+                →
+              </span>
             </a>
           </div>
           <div className="bg-gray-50 border border-gray-100 rounded-lg shadow-sm flex flex-col justify-between p-6 min-h-[220px] hover:shadow-md transition group">
@@ -403,7 +432,9 @@ function WhatWeDo() {
               className="text-sm text-[#007BFF] font-medium inline-flex items-center gap-1 hover:underline mt-auto"
             >
               Read More{" "}
-              <span aria-hidden className="text-base">→</span>
+              <span aria-hidden className="text-base">
+                →
+              </span>
             </a>
           </div>
         </div>
@@ -415,27 +446,27 @@ function WhatWeDo() {
 function OurPartners() {
   // Example partner logos from public/ (duplicated for a fuller grid)
   const partners = [
-    { src: '/peugeot.jpg', alt: 'Peugeot' },
-    { src: '/totalenergies.jpg', alt: 'TotalEnergies' },
-    { src: '/dardanel.jpg', alt: 'Dardanel' },
-    { src: '/chefmdjazs.jpg', alt: 'ChefMDJazs' },
-    { src: '/window.svg', alt: 'Window' },
-    { src: '/file.svg', alt: 'File' },
-    { src: '/globe.svg', alt: 'Globe' },
-    { src: '/peugeot.jpg', alt: 'Peugeot' },
-    { src: '/totalenergies.jpg', alt: 'TotalEnergies' },
-    { src: '/dardanel.jpg', alt: 'Dardanel' },
-    { src: '/chefmdjazs.jpg', alt: 'ChefMDJazs' },
-    { src: '/window.svg', alt: 'Window' },
-    { src: '/file.svg', alt: 'File' },
-    { src: '/globe.svg', alt: 'Globe' },
+    { src: "/peugeot.jpg", alt: "Peugeot" },
+    { src: "/totalenergies.jpg", alt: "TotalEnergies" },
+    { src: "/dardanel.jpg", alt: "Dardanel" },
+    { src: "/chefmdjazs.jpg", alt: "ChefMDJazs" },
+    { src: "/window.svg", alt: "Window" },
+    { src: "/file.svg", alt: "File" },
+    { src: "/globe.svg", alt: "Globe" },
+    { src: "/peugeot.jpg", alt: "Peugeot" },
+    { src: "/totalenergies.jpg", alt: "TotalEnergies" },
+    { src: "/dardanel.jpg", alt: "Dardanel" },
+    { src: "/chefmdjazs.jpg", alt: "ChefMDJazs" },
+    { src: "/window.svg", alt: "Window" },
+    { src: "/file.svg", alt: "File" },
+    { src: "/globe.svg", alt: "Globe" },
   ];
   // Pause animation on hover
   const handleMouseEnter = () => {
-    document.documentElement.style.setProperty('--logo-scroll-play', 'paused');
+    document.documentElement.style.setProperty("--logo-scroll-play", "paused");
   };
   const handleMouseLeave = () => {
-    document.documentElement.style.setProperty('--logo-scroll-play', 'running');
+    document.documentElement.style.setProperty("--logo-scroll-play", "running");
   };
   return (
     <section className="w-full bg-gradient-to-br from-[#f8fafc] via-white to-[#e3f0ff] py-14 border-b border-gray-100 relative overflow-hidden">
@@ -477,15 +508,18 @@ function OurPartners() {
           <div
             className="flex gap-8 items-center w-max animate-logo-scroll group"
             style={{
-              minWidth: '100%',
-              whiteSpace: 'nowrap',
-              animationPlayState: 'var(--logo-scroll-play, running)',
+              minWidth: "100%",
+              whiteSpace: "nowrap",
+              animationPlayState: "var(--logo-scroll-play, running)",
             }}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
           >
             {[...partners, ...partners].map((partner, i) => (
-              <div key={partner.alt + i} className="flex items-center justify-center h-20 w-40 fade-in-logo">
+              <div
+                key={partner.alt + i}
+                className="flex items-center justify-center h-20 w-40 fade-in-logo"
+              >
                 <div className="bg-white rounded-lg flex items-center justify-center w-full h-full p-2 border border-gray-100 shadow-md hover:shadow-lg transition">
                   <img
                     src={partner.src}
@@ -515,27 +549,27 @@ function OurPartners() {
 function ResourceCenter() {
   const resources = [
     {
-      title: 'Download: Industrial Operations Guide',
-      desc: 'Get our comprehensive guide to optimizing your operations for growth and sustainability.',
-      type: 'Download',
-      link: '/resource-center/operations-guide',
-      img: '/file.svg',
+      title: "Download: Industrial Operations Guide",
+      desc: "Get our comprehensive guide to optimizing your operations for growth and sustainability.",
+      type: "Download",
+      link: "/resource-center/operations-guide",
+      img: "/file.svg",
       featured: true,
     },
     {
-      title: 'Article: Maximizing Plant Uptime',
-      desc: 'Best practices and strategies to keep your plant running efficiently and avoid costly downtime.',
-      type: 'Article',
-      link: '/resource-center/maximizing-plant-uptime',
-      img: '/hero-industrial.jpg',
+      title: "Article: Maximizing Plant Uptime",
+      desc: "Best practices and strategies to keep your plant running efficiently and avoid costly downtime.",
+      type: "Article",
+      link: "/resource-center/maximizing-plant-uptime",
+      img: "/hero-industrial.jpg",
       featured: false,
     },
     {
-      title: 'Article: Building a Future-Ready Workforce',
-      desc: 'How to upskill your team and prepare for the next wave of industrial innovation.',
-      type: 'Article',
-      link: '/resource-center/future-ready-workforce',
-      img: '/workers.jpg',
+      title: "Article: Building a Future-Ready Workforce",
+      desc: "How to upskill your team and prepare for the next wave of industrial innovation.",
+      type: "Article",
+      link: "/resource-center/future-ready-workforce",
+      img: "/workers.jpg",
       featured: false,
     },
   ];
@@ -554,7 +588,7 @@ function ResourceCenter() {
               key={res.title}
               href={res.link}
               className={`group bg-white rounded-2xl shadow-md border border-gray-100 flex flex-col overflow-hidden hover:shadow-lg transition relative ${
-                res.featured ? 'scale-105 z-10' : ''
+                res.featured ? "scale-105 z-10" : ""
               }`}
             >
               <div className="h-32 w-full bg-gray-100 flex items-center justify-center overflow-hidden">
@@ -574,9 +608,7 @@ function ResourceCenter() {
                 <h3 className="text-base font-bold text-gray-800 mb-1 group-hover:text-[#007BFF] transition-colors">
                   {res.title}
                 </h3>
-                <p className="text-xs text-gray-500 mb-2 flex-1">
-                  {res.desc}
-                </p>
+                <p className="text-xs text-gray-500 mb-2 flex-1">{res.desc}</p>
                 <span className="inline-block mt-auto text-xs text-[#007BFF] font-medium group-hover:underline">
                   Learn More →
                 </span>
@@ -615,15 +647,19 @@ function ContactUs() {
     },
     {
       question: "What services do you offer?",
-      answer: "We provide industrial automation, control, and engineering solutions tailored to your needs.",
+      answer:
+        "We provide industrial automation, control, and engineering solutions tailored to your needs.",
     },
   ];
   return (
     <section
       className="w-full py-6 md:py-8 border-b border-gray-100 relative bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: 'url(/workers.jpg)' }}
+      style={{ backgroundImage: "url(/workers.jpg)" }}
     >
-      <div className="absolute inset-0 bg-white/70 backdrop-blur-sm" aria-hidden="true"></div>
+      <div
+        className="absolute inset-0 bg-white/70 backdrop-blur-sm"
+        aria-hidden="true"
+      ></div>
       <div className="relative max-w-7xl mx-auto px-2 md:px-8">
         <h2 className="text-xl md:text-2xl font-bold text-[#007BFF] text-left mb-2 uppercase tracking-wide px-4 md:px-8">
           Contact Us
@@ -696,7 +732,10 @@ function ContactUs() {
             </h3>
             <div className="space-y-2">
               {faqs.map((faq, idx) => (
-                <details key={idx} className="bg-white/80 rounded-lg shadow p-2 group">
+                <details
+                  key={idx}
+                  className="bg-white/80 rounded-lg shadow p-2 group"
+                >
                   <summary className="font-semibold text-[#007BFF] cursor-pointer outline-none group-open:text-blue-900 transition-all text-xs">
                     {faq.question}
                   </summary>
@@ -720,11 +759,13 @@ function Footer() {
         {/* Company Info */}
         <div className="md:w-1/4 flex flex-col gap-3 mb-8 md:mb-0">
           <div className="flex items-center gap-2 mb-2">
-            <span className="font-extrabold text-2xl tracking-tight">Bluepeg</span>
+            <span className="font-extrabold text-2xl tracking-tight">
+              Bluepeg
+            </span>
           </div>
           <p className="text-sm text-blue-100 max-w-xs leading-relaxed">
-            Bluepeg is a people-first industrial operations company, dedicated to
-            driving innovation and sustainable growth across Nigeria.
+            Bluepeg is a people-first industrial operations company, dedicated
+            to driving innovation and sustainable growth across Nigeria.
           </p>
         </div>
         {/* Quick Links */}
@@ -734,10 +775,7 @@ function Footer() {
           </h4>
           <ul className="flex flex-col gap-1 text-sm">
             <li>
-              <a
-                href="/about"
-                className="hover:underline text-blue-200"
-              >
+              <a href="/about" className="hover:underline text-blue-200">
                 About Us
               </a>
             </li>
@@ -750,10 +788,7 @@ function Footer() {
               </a>
             </li>
             <li>
-              <a
-                href="/partners"
-                className="hover:underline text-blue-200"
-              >
+              <a href="/partners" className="hover:underline text-blue-200">
                 Our Partners
               </a>
             </li>
@@ -766,18 +801,12 @@ function Footer() {
               </a>
             </li>
             <li>
-              <a
-                href="/contact"
-                className="hover:underline text-blue-200"
-              >
+              <a href="/contact" className="hover:underline text-blue-200">
                 Contact Us
               </a>
             </li>
             <li>
-              <a
-                href="/contact"
-                className="hover:underline text-blue-200"
-              >
+              <a href="/contact" className="hover:underline text-blue-200">
                 FAQ
               </a>
             </li>
@@ -878,11 +907,7 @@ function Footer() {
                 />
               </svg>
             </a>
-            <a
-              href="#"
-              className="hover:text-blue-300"
-              aria-label="Twitter"
-            >
+            <a href="#" className="hover:text-blue-300" aria-label="Twitter">
               <svg
                 width="22"
                 height="22"
@@ -892,11 +917,7 @@ function Footer() {
                 <path d="M17.316 6.246c.008.176.008.353.008.53 0 5.39-4.104 11.61-11.61 11.61-2.307 0-4.453-.676-6.26-1.84.32.037.64.053.97.053 1.92 0 3.69-.653 5.1-1.75a4.09 4.09 0 0 1-3.82-2.84c.25.04.5.07.77.07.36 0 .71-.05 1.04-.14a4.09 4.09 0 0 1-3.28-4.01v-.05c.55.3 1.18.48 1.85.5a4.08 4.08 0 0 1-1.82-3.4c0-.75.2-1.45.54-2.05a11.6 11.6 0 0 0 8.42 4.27c-.07-.3-.1-.61-.1-.93a4.09 4.09 0 0 1 7.08-3.73 8.18 8.18 0 0 0 2.59-.99 4.08 4.08 0 0 1-1.8 2.25 8.18 8.18 0 0 0 2.35-.64 8.7 8.7 0 0 1-2.05 2.12z" />
               </svg>
             </a>
-            <a
-              href="#"
-              className="hover:text-blue-300"
-              aria-label="YouTube"
-            >
+            <a href="#" className="hover:text-blue-300" aria-label="YouTube">
               <svg
                 width="22"
                 height="22"
@@ -910,7 +931,9 @@ function Footer() {
         </div>
       </div>
       <div className="max-w-7xl mx-auto border-t border-blue-900 mt-8 pt-4 flex flex-col md:flex-row justify-between items-center text-xs text-blue-200">
-        <span>&copy; {new Date().getFullYear()} Bluepeg. All rights reserved.</span>
+        <span>
+          &copy; {new Date().getFullYear()} Bluepeg. All rights reserved.
+        </span>
         <span className="mt-2 md:mt-0">Powered by Bluepeg Digital</span>
       </div>
     </footer>

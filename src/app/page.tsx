@@ -1,6 +1,8 @@
 import Hero from "../components/Hero";
 import AboutSection from "../components/AboutSection";
 import Image from "next/image";
+import WhoWeAre from "@/components/WhoWeAreSection";
+import MissionVisionValues from "@/components/MissionVisionValuesSection";
 
 function ClientTrustSection() {
   return null;
@@ -26,7 +28,8 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <AboutSection />
+      <WhoWeAre />
+      <MissionVisionValues />
       <ClientTrustSection />
       <WhyChooseUsStatsBar />
       <ServicesSection />
