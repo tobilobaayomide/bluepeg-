@@ -2,10 +2,12 @@
 
 import { useState, useEffect } from "react";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 export default function InnovationLabSection() {
   const [hoveredTech, setHoveredTech] = useState<number | null>(null);
   const [mounted, setMounted] = useState(false);
+  const router = useRouter();
 
   useEffect(() => {
     setMounted(true);
@@ -221,7 +223,8 @@ export default function InnovationLabSection() {
                 {/* Action Button */}
                 <a 
                   href={`/innovation-lab?tab=${tech.tabId}`}
-                  className={`block w-full py-2 bg-gradient-to-r ${tech.color} text-white font-semibold rounded-lg text-sm opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-y-4 group-hover:translate-y-0 text-center`}
+                  className={`block w-full py-2 bg-gradient-to-r ${tech.color} text-white font-semibold rounded-lg text-sm transition-all duration-300 transform text-center opacity-100 cursor-pointer hover:scale-105 relative z-50`}
+                  style={{ pointerEvents: 'auto' }}
                 >
                   Explore Technology
                 </a>

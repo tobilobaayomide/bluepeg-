@@ -1,5 +1,3 @@
-"use client";
-
 import MissionVisionValues from "@/components/MissionVisionValuesSection";
 import OurStory from "@/components/OurStorySection";
 import MeetTheTeam from "@/components/TeamSection";
@@ -7,7 +5,13 @@ import WhoWeAre from "@/components/WhoWeAreSection";
 import ClientSuccess from "@/components/ClientSuccessSection";
 import Footer from "@/components/Footer";
 import Image from "next/image";
-import { useEffect, useRef } from "react";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About Us - Bluepeg | Industrial Operations Excellence",
+  description: "Learn about Bluepeg's mission, vision, and values. Meet our expert team driving innovation in industrial automation and engineering solutions across Nigeria.",
+  keywords: "about bluepeg, industrial team, engineering experts, automation specialists, Nigeria industrial operations",
+};
 
 export default function About() {
   return (

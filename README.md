@@ -9,6 +9,7 @@ Bluepeg represents a people-first industrial operations company dedicated to dri
 ### 🎯 Key Highlights
 - **Industrial Focus**: Specialized in automation solutions and industrial engineering
 - **Modern Architecture**: Built with Next.js 15, React, TypeScript, and Tailwind CSS
+- **Interactive Navigation**: Seamless tab-based navigation between technology sections
 - **Responsive Design**: Optimized for all devices and screen sizes
 - **Performance Optimized**: Static generation with excellent Core Web Vitals
 - **SEO Ready**: Built-in SEO optimization with Next.js features
@@ -22,7 +23,7 @@ Bluepeg represents a people-first industrial operations company dedicated to dri
 ### Installation
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/bluepeg.git
+git clone https://github.com/Hunkymanie/bluepeg-.git
 cd bluepeg
 ```
 
@@ -76,6 +77,8 @@ src/
 
 ### 🎨 Design & User Experience
 - **Modern UI/UX**: Clean, professional design with industrial aesthetics
+- **Interactive Technology Showcase**: Hover effects and seamless navigation between tech stacks
+- **Tab-based Navigation**: Smart routing between homepage and innovation lab sections
 - **Responsive Design**: Seamless experience across desktop, tablet, and mobile
 - **Accessibility**: WCAG compliant with proper semantic HTML
 - **Performance**: Optimized images, lazy loading, and Core Web Vitals focused
@@ -84,19 +87,33 @@ src/
 - **Next.js 15**: Latest React framework with App Router
 - **TypeScript**: Full type safety and better developer experience
 - **Tailwind CSS**: Utility-first CSS framework for rapid styling
+- **React Hooks**: Advanced state management and interactive components
 - **ESLint**: Code quality and consistency enforcement
 - **Modern Development**: Hot reload, fast refresh, and optimized builds
 
 ### 📄 Pages & Sections
-- **Homepage**: Hero section, company overview, and call-to-actions
+- **Homepage**: Hero section, company overview, and interactive technology showcase
 - **About Us**: Company story, mission, vision, and team showcase
 - **Solutions**: Industrial automation and engineering services
 - **Case Studies**: Client success stories and project showcases
-- **Innovation Lab**: R&D initiatives and technological advances
+- **Innovation Lab**: Interactive R&D showcase with technology tabs
+  - Artificial Intelligence & Machine Learning
+  - Internet of Things (IoT)
+  - Cloud Computing Infrastructure
+  - Robotics & Automation Systems
+  - Extended Reality (AR/VR)
+  - Blockchain Security Solutions
 - **Resource Center**: Industry guides, whitepapers, and documentation
 - **News**: Company updates, announcements, and industry insights
 - **Careers**: Job opportunities and company culture
 - **Contact**: Multiple contact methods and inquiry forms
+
+### 🔧 Interactive Features
+- **Smart Navigation**: Technology cards on homepage link directly to corresponding tabs in Innovation Lab
+- **Dynamic Tab System**: URL-based tab navigation with `?tab=` parameters
+- **Hover Animations**: Smooth transitions and visual feedback on interactive elements
+- **Responsive Grid Layout**: Adaptive technology showcase grid
+- **Real-time State Management**: React hooks for seamless user interactions
 
 ## 🚧 Development Scripts
 
@@ -119,9 +136,16 @@ npm run type-check
 
 ## 🔧 Recent Updates & Improvements
 
-### ✅ Codebase Cleanup (Latest)
+### ✅ Interactive Technology Showcase (Latest)
+- **Smart Navigation System**: Homepage technology cards now link directly to Innovation Lab tabs
+- **URL-based Tab Navigation**: Implemented deep linking with `?tab=` parameters for each technology
+- **Enhanced User Experience**: Seamless transitions between homepage and detailed technology sections
+- **Fixed Navigation Issues**: Resolved link routing problems and optimized component interactions
+- **Hover State Management**: Improved interactive animations and visual feedback
+
+### ✅ Codebase Cleanup & Optimization
 - **Removed unused components**: Deleted 5 unused component files
-- **Fixed navigation**: Removed broken links and optimized routing
+- **Navigation optimization**: Improved routing performance and user flow
 - **ESLint optimization**: Converted blocking errors to warnings for smooth builds
 - **Build optimization**: Successfully generating 22 static pages
 - **Performance improvements**: Reduced bundle size and improved load times
