@@ -1,12 +1,12 @@
-"use client";
-
-import ContactUsSection from "@/components/ContactUsSection";
+import CompanyNews from "@/components/CompanyNewsSection";
 import Footer from "@/components/Footer";
 
-export default function Contact() {
+export default function NewsPage() {
   return (
     <main className="min-h-screen w-full bg-white flex flex-col items-stretch">
-      <ContactUsSection />
+      <div className="pt-16">
+        <CompanyNews />
+      </div>
       <Footer />
     </main>
   );

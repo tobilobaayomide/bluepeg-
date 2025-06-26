@@ -19,7 +19,7 @@ function AboutHero() {
         </div>
         <div className="flex-1 flex justify-center items-center px-4 md:px-16">
           <img
-            src="/about-hero.jpg"
+            src="/hero-industrial.jpg"
             alt="Bluepeg team in action"
             className="rounded-lg shadow-lg object-cover w-full max-w-md h-64 md:h-80 border border-blue-100"
           />
