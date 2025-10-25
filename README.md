@@ -1,8 +1,7 @@
-![Bluepeg Logo](public/bluepeg.png)
-
 # Bluepeg — The Story of Building an Industrial Operations Platform
 
 ## The Journey: How Bluepeg Was Built
+![Bluepeg](public/bluepeg.png)
 
 Bluepeg began as a vision to revolutionize industrial operations. I wanted to create a digital platform that not only showcased our expertise in automation and engineering, but also told the story of our people, our innovations, and our impact. The journey started with countless brainstorming sessions, wireframes, and a deep dive into the needs of industrial clients. Every feature, every page, and every design choice was made to solve a real problem and deliver value.
 
